@@ -1,0 +1,48 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.social_animation{
+    margin-top: 100px;
+}
+.social_animation .line_bg{
+    background: #006266;
+    width: 200px;
+    padding: 7px;
+    text-align: right;
+    margin: 5px 0;
+    border-radius: 0px 25px 25px 0px;
+    transform: translateX(-165px);
+    transition: 1s;
+}
+.social_animation .line_bg label{
+    color: #fff;
+    font-weight: bold;
+    font-size: 20px;
+    margin-right: 5px;
+}
+.social_animation .line_bg span{
+    height: 40px;
+    width: 40px;
+    font-size: 25px;
+    line-height: 40px;
+    text-align: center;
+    background: #fff;
+    color: #6F1E51;
+    padding: 5px;
+    border-radius: 50%;
+   
+     
+}
+
+.social_animation .line_bg:hover{
+    transform: translateX(-10px);
+}
+
+.social_animation .line_bg span i{
+    transition: .8s;
+}
+.social_animation .line_bg:hover span i{
+    transform: scale(1.2) rotate(360deg);
+}
